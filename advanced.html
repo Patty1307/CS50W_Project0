@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Google Search</title>
+        <title>Google Advanced Search</title>
         <link rel="stylesheet" href="styles.css"/>
     </head>
     
@@ -10,15 +10,29 @@
     </header>
     
     <body>
-        <div class="container-heading">
-            <h1>Google Advanced</h1>
+        <div class="container-advanced-search-header">
+            <h1>Google Advanced Search</h1>
         </div>
+        
+        <h2>Find pages with...</h2>
 
-        <div class="container-search">
+        <div>
+            
             <form action="https://google.com/search">
-                
-                <div>
-                    <input type="text" name="q" placeholder="Search..." autocomplete="off">
+                <div class="container-advanced-search">
+                    
+                    <label for="ContainsAllWords">all these words:</label>
+                    <input type="text" name="q" autocomplete="off" id="ContainsAllWords">
+                    
+                    <label for="ContainsExactly">this exact word or phrase:</label>
+                    <input type="text" name="q" autocomplete="off" id="ContainsExactly">
+
+                    <label for="ContainsAny">any of these words:</label>
+                    <input type="text" name="q" autocomplete="off" id="ContainsAny">
+
+                    <label for="ContainsNone">none of these words:</label>
+                    <input type="text" name="q" autocomplete="off" id="ContainsNone">
+
                 </div>
                     
                 <div>
