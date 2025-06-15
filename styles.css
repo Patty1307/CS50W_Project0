@@ -1,0 +1,40 @@
+.NavBar{
+    font-family: Arial;
+    min-height: 70px;
+    display: flex;
+    align-items: center; /* align horizontal */
+    justify-content: flex-end; /* align right */
+
+}
+
+.NavBar a{
+    border: 1px solid;
+    border-color: black;
+    font-size: 17px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.NavBar a:hover{
+    background-color: lightgray;
+}
+
+.container-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-heading h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80px;
+    margin-top: 20vh;
+    margin-bottom: 20px;
+}
+
+.container-search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
